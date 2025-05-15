@@ -19,9 +19,8 @@ def game_engine(count):
 def choose_level():
     print("Choose difficulty")
     print("1 for easy(10 times) \n 2 for medium(6 times) \n 3 hard(4 times)")
-    level = 1
+    level = int(input("Choose: "))
     while True:
-        game_level = int(input("Choose: "))
         if 1 <= level <=3:
             break
         else:
